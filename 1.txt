@@ -1,0 +1,58 @@
+
+fd@WIN-10-KEVIN MINGW32 ~
+$ cd /e
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ git remote add origin git@github.com:KIKIci/learngit.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ git init learngit
+Initialized empty Git repository in E:/learngit/.git/
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ git remote add origin git@github.com:KIKIci/learngit.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ git remote add origin git@github.com:KIKIci/learngit.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ git remote add origin git@github.com:KIKIci/learngit.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+fd@WIN-10-KEVIN MINGW32 /e
+$ cd KU-GIT
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$ git remote add origin git@github.com:KIKIci/learngit.git
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '13.250.177.223' to t                                                                                                                he list of known hosts.
+Connection closed by 13.250.177.223 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 461 bytes | 10.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To github.com:KIKIci/learngit.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$ git add log
+
+fd@WIN-10-KEVIN MINGW32 /e/KU-GIT (master)
+$ git push -u origin master
